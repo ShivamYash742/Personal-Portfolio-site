@@ -41,7 +41,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="skills-img">
-            <img src="img/skills.png" alt />
+            <img src="src/img/skills.png" alt />
           </div>
         </div>
       </section>

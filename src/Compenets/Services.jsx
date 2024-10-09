@@ -47,28 +47,28 @@ const Services = () => {
         </div>
         <div className="portfolio-content">
           <div className="portfolio-img">
-            <img src="img/p1.jpg" alt />
+            <img src="src/img/p1.jpg" alt />
           </div>
           <div className="portfolio-img">
-            <img src="img/p2.jpg" alt />
+            <img src="src/img/p2.jpg" alt />
           </div>
           <div className="portfolio-img">
-            <img src="img/p3.jpg" alt />
+            <img src="src/img/p3.jpg" alt />
           </div>
           <div className="portfolio-img">
-            <img src="img/p4.jpg" alt />
+            <img src="src/img/p4.jpg" alt />
           </div>
           <div className="portfolio-img">
-            <img src="img/p5.jpg" alt />
+            <img src="src/img/p5.jpg" alt />
           </div>
           <div className="portfolio-img">
-            <img src="img/p6.jpg" alt />
+            <img src="src/img/p6.jpg" alt />
           </div>
           <div className="portfolio-img">
-            <img src="img/p7.jpg" alt />
+            <img src="src/img/p7.jpg" alt />
           </div>
           <div className="portfolio-img">
-            <img src="img/p8.jpg" alt />
+            <img src="src/img/p8.jpg" alt />
           </div>
         </div>
       </section>

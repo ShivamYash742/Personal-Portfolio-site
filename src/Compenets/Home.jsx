@@ -10,11 +10,11 @@ const Home = () => {
           </a>
         </div>
         <div className="home-img">
-          <img src="img/profile.png" alt />
+          <img src="src\img\profile.png" alt />
         </div>
         <div className="home-text">
           <span>Hello, I'm</span>
-          <h1>Shivam MIshra</h1>
+          <h1>Shivam Mishra</h1>
           <h2>Frontend &amp; Backend Developer</h2>
           <p>
             {" "}
