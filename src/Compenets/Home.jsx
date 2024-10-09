@@ -1,4 +1,5 @@
 import React from "react";
+import profile from "../img/profile.png"
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
           </a>
         </div>
         <div className="home-img">
-          <img src="src\img\profile.png" alt />
+          <img src={profile} alt />
         </div>
         <div className="home-text">
           <span>Hello, I'm</span>

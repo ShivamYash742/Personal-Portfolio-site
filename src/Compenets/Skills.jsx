@@ -1,4 +1,5 @@
 import React from "react";
+import js from "../img/skills.png"
 
 const Skills = () => {
   return (
@@ -41,7 +42,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="skills-img">
-            <img src="src/img/skills.png" alt />
+            <img src={js} alt />
           </div>
         </div>
       </section>
