@@ -11,14 +11,11 @@ import p8 from "../img/p8.jpg"
 const Services = () => {
   return (
     <div>
-      {/* Services */}
       <section className="services" id="services">
         <div className="heading">
           <h2>Services</h2>
-          <span>Services</span>
         </div>
         <div className="services-content">
-          {/* Box 1 */}
           <div className="services-box">
             <i className="bx bx-code-alt" />
             <h3>
@@ -27,7 +24,6 @@ const Services = () => {
             </h3>
             <a href="#">Learn More</a>
           </div>
-          {/* Box 2 */}
           <div className="services-box">
             <i className="bx bx-server" />
             <h3>
@@ -36,7 +32,6 @@ const Services = () => {
             </h3>
             <a href="#">Learn More</a>
           </div>
-          {/* Box 3 */}
           <div className="services-box">
             <i className="bx bx-brush" />
             <h3>
@@ -47,36 +42,55 @@ const Services = () => {
           </div>
         </div>
       </section>
-      {/* Portfolio */}
+
+
       <section className="portfolio" id="portfolio">
         <div className="heading">
           <h2>Portfolio</h2>
-          <span>Our Recent Work</span>
+          <span>my Recent Work</span>
         </div>
         <div className="portfolio-content">
+          <a href="https://calculator-shivam-mishras-projects-b54fd7b1.vercel.app/">
           <div className="portfolio-img">
             <img src={p1} alt />
+            <br />
+            <h1 className="center">Calculator in react</h1>
           </div>
+          </a>
           <div className="portfolio-img">
             <img src={p2} alt />
+            <br />
+            <h1 className="center">Adding Soon...</h1>
           </div>
           <div className="portfolio-img">
             <img src={p3} alt />
+            <br />
+            <h1 className="center">Adding Soon...</h1>
           </div>
           <div className="portfolio-img">
             <img src={p4} alt />
+            <br />
+            <h1 className="center">Adding Soon...</h1>
           </div>
           <div className="portfolio-img">
             <img src={p5} alt />
+            <br />
+            <h1 className="center">Adding Soon...</h1>
           </div>
           <div className="portfolio-img">
             <img src={p6} alt />
+            <br />
+            <h1 className="center">Adding Soon...</h1>
           </div>
           <div className="portfolio-img">
             <img src={p7} alt />
+            <br />
+            <h1 className="center">Adding Soon...</h1>
           </div>
           <div className="portfolio-img">
             <img src={p8} alt />
+            <br />
+            <h1 className="center">Adding Soon...</h1>
           </div>
         </div>
       </section>

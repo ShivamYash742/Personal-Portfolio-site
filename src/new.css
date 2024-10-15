@@ -9,6 +9,7 @@
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   font-family: "Poppins", sans-serif;
+  color: aliceblue;
 }
 
 section {
@@ -19,12 +20,13 @@ body.active {
   background: #0f0c27;
 }
 body {
-  background: #fff;
+  background:  #a78fe1;
+
   color: #0f0c27;
 }
 *::selection {
   color: #fff;
-  background: #4a00e0;
+  background:  #44268a;
 }
 header {
   position: fixed;
@@ -38,6 +40,8 @@ header {
   background: #fff;
   padding: 18px 10%;
   transition: 0.2s;
+  background: #a78fe1;
+    color: aliceblue;
 }
 header.shadow {
   box-shadow: 0 0 4px rgb(14 55 54 / 15%);
@@ -45,7 +49,7 @@ header.shadow {
 .logo {
   font-size: 1.1rem;
   font-weight: 600;
-  color: #0f0c27;
+  
 }
 .navbar {
   display: flex;
@@ -53,11 +57,11 @@ header.shadow {
 .navbar a {
   font-size: 1rem;
   padding: 10px 20px;
-  color: #0f0c27;
   font-weight: 500;
 }
 .navbar a:hover {
-  color: hsl(260, 100%, 51%);
+  transition: color 0.3s ease-in-out;
+  color: hsl(0, 100%, 69%);
 }
 #menu-icon {
   font-size: 24px;
@@ -110,17 +114,20 @@ header.shadow {
   color: #0f0c27;
 }
 .social a:hover {
-  color: hsl(260, 100%, 51%);
+  transition: color 0.3s ease-in-out;
+  color: hsl(0, 100%, 50%);
 }
 .btn {
   display: inline-block;
-  background: #4a00e0;
+  background:  #44268a;
   color: #fff;
   padding: 0.8rem 1rem;
   border-radius: 0.5rem;
 }
 .btn:hover {
-  background: hsl(260, 100%, 51%);
+  transition: background-color 0.3s ease-in-out;
+  background: hsl(0, 100%, 51%);
+
 }
 .scroll-down {
   position: absolute;
@@ -208,7 +215,7 @@ span {
   left: 0;
   width: 100%;
   height: 0.5rem;
-  background: hsla(260, 100%, 44%, 0.4);
+  background:  #44268a;
   border-radius: 0.5rem;
 }
 .percent-bar {
@@ -216,7 +223,7 @@ span {
   bottom: 0;
   left: 0;
   height: 0.5rem;
-  background: #4a00e0;
+  background:  #44268a;
   border-radius: 0.5rem;
 }
 .html-bar {
@@ -246,7 +253,7 @@ span {
   align-items: center;
   text-align: center;
   border-radius: 0.5rem;
-  border-bottom: 2px solid #4a00e0;
+  border-bottom: 2px solid #452485;
   box-shadow: 0 2px 7px rgb(14 55 54 / 15%);
 }
 .services-box h3 {
@@ -314,20 +321,22 @@ form textarea {
 .contact-button {
   width: 80px;
   cursor: pointer;
-  background: #4a00e0;
+  background:  #44268a;
   color: #fff;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 .contact-button:hover {
-  background: hsl(260, 100%, 51%);
+  transition: background-color 0.3s ease-in-out;
+  background: hsl(0, 100%, 50%);
 }
 .footer {
   display: grid;
   place-items: center;
   padding: 50px;
-  background: #4a00e0;
+  background:  #44268a;
+
   color: #fff;
 }
 .footer h2 {
@@ -341,9 +350,14 @@ form textarea {
 }
 .copyright {
   padding: 20px;
-  background: #4a00e0;
+  background:  #44268a;
+
   text-align: center;
   color: #fff;
+}
+
+.center{
+  text-align: center;
 }
 /* Making Responsive */
 @media (max-width: 991px) {
@@ -354,6 +368,8 @@ form textarea {
     padding: 50px 4%;
   }
 }
+
+
 @media (max-width: 881px) {
   h1 {
     font-size: 2.7rem;
@@ -461,7 +477,7 @@ form textarea {
 .typing-animation {
   font-family: 'jetbrains mono';
   overflow: hidden;
-  border-right: .15em solid rgb(0, 0, 0); /* The cursor */
+  border-right: .15em solid rgb(0, 0, 0); 
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .15em;

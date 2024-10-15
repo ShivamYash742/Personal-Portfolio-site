@@ -27,6 +27,15 @@ const Footer = () => {
                 className="contact-button"
               />
             </form>
+            <div className="info-box">
+              <i className="bx bxs-phone" />
+              <span>+91 987 157 6382</span>
+              <br />
+            </div>
+            <div className="info-box">
+              <i className="bx bxs-envelope" />
+              <span> shivamyash742@gmail.com</span>
+            </div>
           </div>
         </section>
         {/* Footer */}
@@ -41,6 +50,12 @@ const Footer = () => {
             </a>
             <a href="https://instagram.com/ShivamYash742">
               <i className="bx bxl-instagram" />
+            </a>
+            <a href="https://github.com/ShivamYash742">
+              <i className="bx bxl-github" />
+            </a>
+            <a href="https://www.linkedin.com/in/shivamyash742/">
+              <i className="bx bxl-linkedin" />
             </a>
           </div>
         </div>
