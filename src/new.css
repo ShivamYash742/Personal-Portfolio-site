@@ -9,7 +9,9 @@
   scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   font-family: "Poppins", sans-serif;
-  color: aliceblue;
+  color: #f98866;
+  background-color: #fff2d7;
+  font-style: italic;
 }
 
 section {
@@ -19,14 +21,10 @@ body.active {
   color: #fff;
   background: #0f0c27;
 }
-body {
-  background:  #a78fe1;
 
-  color: #0f0c27;
-}
 *::selection {
   color: #fff;
-  background:  #44268a;
+  background: #ff0000;
 }
 header {
   position: fixed;
@@ -40,8 +38,8 @@ header {
   background: #fff;
   padding: 18px 10%;
   transition: 0.2s;
-  background: #a78fe1;
-    color: aliceblue;
+  background-color: #fff2d7;
+  color: aliceblue;
 }
 header.shadow {
   box-shadow: 0 0 4px rgb(14 55 54 / 15%);
@@ -49,10 +47,10 @@ header.shadow {
 .logo {
   font-size: 1.1rem;
   font-weight: 600;
-  
 }
 .navbar {
   display: flex;
+  background-color: #fff2d7;
 }
 .navbar a {
   font-size: 1rem;
@@ -61,7 +59,8 @@ header.shadow {
 }
 .navbar a:hover {
   transition: color 0.3s ease-in-out;
-  color: hsl(0, 100%, 69%);
+  
+  color: hsl(40, 100%, 82%);
 }
 #menu-icon {
   font-size: 24px;
@@ -115,19 +114,20 @@ header.shadow {
 }
 .social a:hover {
   transition: color 0.3s ease-in-out;
-  color: hsl(0, 100%, 50%);
+  
+  color: hsl(40, 100%, 82%);
 }
 .btn {
   display: inline-block;
-  background:  #44268a;
+  background: #f98866;
   color: #fff;
   padding: 0.8rem 1rem;
   border-radius: 0.5rem;
 }
 .btn:hover {
   transition: background-color 0.3s ease-in-out;
-  background: hsl(0, 100%, 51%);
-
+  
+  background: hsl(40, 100%, 82%);
 }
 .scroll-down {
   position: absolute;
@@ -138,10 +138,10 @@ header.shadow {
   display: flex;
   align-items: center;
   font-size: 1rem;
-  color: #0f0c27;
+  color: #f98866;
 }
 .scroll-down .bx {
-  color: #4a00e0;
+  color: #fff2d7;
   font-size: 24px;
 }
 .heading {
@@ -165,7 +165,7 @@ header.shadow {
   border-radius: 0.5rem;
 }
 .about-text p {
-  font-size: 0.941rem;
+  font-size: 1.25rem;
   font-weight: 400;
   text-align: justify;
 }
@@ -215,7 +215,7 @@ span {
   left: 0;
   width: 100%;
   height: 0.5rem;
-  background:  #44268a;
+  background: #f98866;
   border-radius: 0.5rem;
 }
 .percent-bar {
@@ -223,7 +223,7 @@ span {
   bottom: 0;
   left: 0;
   height: 0.5rem;
-  background:  #44268a;
+  background: #f98866;
   border-radius: 0.5rem;
 }
 .html-bar {
@@ -264,10 +264,10 @@ span {
 .services-box .bx {
   padding-top: 2rem;
   font-size: 24px;
-  color: #4a00e0;
+  color: #f98866;
 }
 .services-box a {
-  color: #4a00e0;
+  color: #f98866;
   font-size: 0.941rem;
   font-weight: 500;
 }
@@ -321,7 +321,7 @@ form textarea {
 .contact-button {
   width: 80px;
   cursor: pointer;
-  background:  #44268a;
+  background: #f98866;
   color: #fff;
   font-weight: 500;
   text-transform: uppercase;
@@ -329,13 +329,14 @@ form textarea {
 }
 .contact-button:hover {
   transition: background-color 0.3s ease-in-out;
-  background: hsl(0, 100%, 50%);
+  
+  background: hsl(40, 100%, 82%);
 }
 .footer {
   display: grid;
   place-items: center;
   padding: 50px;
-  background:  #44268a;
+  background: #fff2d7;
 
   color: #fff;
 }
@@ -350,13 +351,13 @@ form textarea {
 }
 .copyright {
   padding: 20px;
-  background:  #44268a;
+  background: #fff2d7;
 
   text-align: center;
   color: #fff;
 }
 
-.center{
+.center {
   text-align: center;
 }
 /* Making Responsive */
@@ -368,7 +369,6 @@ form textarea {
     padding: 50px 4%;
   }
 }
-
 
 @media (max-width: 881px) {
   h1 {
@@ -390,7 +390,7 @@ form textarea {
   }
   #menu-icon {
     display: initial;
-    color: #0f0c27;
+    color: #fff800;
   }
   header .navbar {
     position: absolute;
@@ -410,7 +410,7 @@ form textarea {
   .navbar a {
     padding: 1.5rem;
     display: block;
-    background:  #44268a;
+    background: #fff2d7;
   }
   #darkmode {
     position: absolute;
@@ -475,23 +475,30 @@ form textarea {
 }
 
 .typing-animation {
-  font-family: 'jetbrains mono';
+  font-family: "jetbrains mono";
   overflow: hidden;
-  border-right: .15em solid rgb(0, 0, 0); 
+  border-right: 0.15em solid rgb(0, 0, 0);
   white-space: nowrap;
   margin: 0 auto;
-  letter-spacing: .15em;
-  animation: 
-    typing 3.5s steps(14, end),
-    blink-caret .75s step-end infinite;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(14, end), blink-caret 0.75s step-end infinite;
 }
 
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(0, 0, 0); }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(0, 0, 0);
+  }
 }
