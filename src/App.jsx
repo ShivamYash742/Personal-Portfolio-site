@@ -5,7 +5,7 @@ import Footer from './Compenets/Footer'
 import Services from './Compenets/Services'
 import Skills from './Compenets/Skills'
 
-import './App.css'
+import './new.css'
 
 function App() {
 

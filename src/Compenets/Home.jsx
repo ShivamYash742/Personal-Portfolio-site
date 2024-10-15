@@ -15,8 +15,8 @@ const Home = () => {
         </div>
         <div className="home-text">
           <span>Hello, I'm</span>
-          <h1>Shivam Mishra</h1>
-          <h2>Frontend &amp; Backend Developer</h2>
+          <h1 className="typing-animation">Shivam Mishra</h1>
+          <h2>Frontend & Backend Developer</h2>
           <p>
             {" "}
             Hi. I am a Student at MSIT'27,

@@ -1,12 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
 
 const Header = () => {
-  const [darkMode, setDarkMode] = useState(false);
   const [navbarActive, setNavbarActive] = useState(false);
   const headerRef = useRef(null);
   const menuRef = useRef(null);
   const navbarRef = useRef(null);
-  const darkmodeRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -36,15 +34,6 @@ const Header = () => {
     setNavbarActive(!navbarActive);
   };
 
-  const handleDarkModeClick = () => {
-    setDarkMode(!darkMode);
-    if (darkmodeRef.current) {
-      darkmodeRef.current.classList.toggle("bx-moon");
-      darkmodeRef.current.classList.toggle("bx-sun");
-    }
-    document.body.classList.toggle("active");
-  };
-
   return (
     <div>
       {/* Navbar */}
@@ -72,7 +61,6 @@ const Header = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <div className={`bx ${darkMode ? "bx-sun" : "bx-moon"}`} id="darkmode" ref={darkmodeRef} onClick={handleDarkModeClick} />
         </ul>
       </header>
     </div>
