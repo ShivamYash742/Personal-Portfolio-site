@@ -1,12 +1,12 @@
 import React from "react";
-import p1 from "../img/p1.jpg"
-import p2 from "../img/p2.jpg"
-import p3 from "../img/p3.jpg"
-import p4 from "../img/p4.jpg"
-import p5 from "../img/p5.jpg"
-import p6 from "../img/p6.jpg"
-import p7 from "../img/p7.jpg"
-import p8 from "../img/p8.jpg"
+import p1 from "../img/p1.jpg";
+import p2 from "../img/p2.jpg";
+import p3 from "../img/p3.jpg";
+import p4 from "../img/p4.jpg";
+import p5 from "../img/p5.jpg";
+import p6 from "../img/p6.jpg";
+import p7 from "../img/p7.jpg";
+import p8 from "../img/p8.jpg";
 
 const Services = () => {
   return (
@@ -43,7 +43,6 @@ const Services = () => {
         </div>
       </section>
 
-
       <section className="portfolio" id="portfolio">
         <div className="heading">
           <h2>Portfolio</h2>
@@ -51,17 +50,19 @@ const Services = () => {
         </div>
         <div className="portfolio-content">
           <a href="https://calculator-shivam-mishras-projects-b54fd7b1.vercel.app/">
-          <div className="portfolio-img">
-            <img src={p1} alt />
-            <br />
-            <h1 className="center">Calculator in react</h1>
-          </div>
+            <div className="portfolio-img">
+              <img src={p1} alt />
+              <br />
+              <h1 className="center">Calculator in react</h1>
+            </div>
           </a>
-          <div className="portfolio-img">
-            <img src={p2} alt />
-            <br />
-            <h1 className="center">Adding Soon...</h1>
-          </div>
+          <a href="https://login-page-sable-three.vercel.app/">
+            <div className="portfolio-img">
+              <img src={p2} alt />
+              <br />
+              <h1 className="center">Login / SignUp Page</h1>
+            </div>
+          </a>
           <div className="portfolio-img">
             <img src={p3} alt />
             <br />
